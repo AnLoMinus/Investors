@@ -1,3 +1,3 @@
-id,date,amount,currency,project,note
-investor-0001,2025-12-11,5000,ILS,Nesle SparKing Studio,Initial studio equipment
-investor-0002,2025-12-15,0,USD,TBD,Pending agreement
+#,date,investor_id,name,project,amount,currency,type,notes
+1,2025-12-11,investor-0001,John Doe,Nesle SparKing Studio,5000,ILS,Donation,Initial studio equipment
+2,2025-12-15,investor-0002,Company X,TBD,0,USD,Pending,Pending agreement
