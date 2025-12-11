@@ -205,6 +205,75 @@ main {
   margin-bottom: 20px;
 }
 
+.date-stack {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  font-weight: 600;
+  border: 1px solid var(--border);
+}
+
+.chip-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 10px 0 4px;
+}
+
+.pitch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.pitch-card {
+  background: linear-gradient(145deg, rgba(82, 214, 255, 0.06), rgba(255, 209, 102, 0.05));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.pitch-card h3 {
+  line-height: 1.35;
+}
+
+.pitch-card h4 {
+  margin: 12px 0 8px;
+}
+
+.rich-list {
+  padding-left: 18px;
+  margin: 8px 0;
+  color: var(--text);
+}
+
+.rich-list li {
+  margin-bottom: 6px;
+}
+
+.gear-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.gear-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 1.8px;
