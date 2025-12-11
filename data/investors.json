@@ -1,0 +1,30 @@
+[
+  {
+    "id": "investor-0001",
+    "slug": "john-doe",
+    "display_name": "John Doe",
+    "type": "Investor",
+    "status": "active",
+    "country": "USA",
+    "city": "New York",
+    "joined_at": "2025-12-11",
+    "currency": "ILS",
+    "total_amount": 5000,
+    "projects_focus": ["Nesle SparKing Studio", "HacKing-DJ"],
+    "visibility": "public"
+  },
+  {
+    "id": "investor-0002",
+    "slug": "company-x",
+    "display_name": "Company X",
+    "type": "Sponsor",
+    "status": "pending",
+    "country": "Israel",
+    "city": "Tel Aviv",
+    "joined_at": "2025-12-15",
+    "currency": "USD",
+    "total_amount": 0,
+    "projects_focus": ["SparkCards & Decks", "Platform Support"],
+    "visibility": "partial"
+  }
+]
